@@ -38,8 +38,8 @@ with st.form("student_form"):
         placeholder="Enter your name"
     )
     usn = st.text_input(
-        "USN / Roll Number",
-        placeholder="Enter roll number"
+        "USN ",
+        placeholder="Enter USN"
     )
     department = st.selectbox(
         "Department",
@@ -61,6 +61,6 @@ if submit:
         st.success("Profile Created Successfully!")
         st.subheader("Student Profile")
         st.write("**Student Name:**", name)
-        st.write("**USN / Roll Number:**", usn)
+        st.write("**USN :**", usn)
         st.write("**Department:**", department)
         st.write("**Current Year:**", year)
