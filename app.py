@@ -28,7 +28,7 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 st.markdown("## Student Profile Application")
-st.write("Developed by Bhavana S O")
+st.write("Developed by Bhagirathi")
 st.info(
     "Fill in your details and click View My Profile."
 )
